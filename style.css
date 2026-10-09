@@ -245,7 +245,7 @@ body {
 }
 
 .btn-success {
-  background: var(--success);
+  background: #F59E0B;
   color: #fff;
 }
 
