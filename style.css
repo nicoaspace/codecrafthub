@@ -234,13 +234,24 @@ body {
 }
 
 .btn-primary {
-  background: var(--primary);
+  background: #8B5CF6;
   color: #fff;
 }
 
 .btn-primary:hover:not(:disabled) {
   background: var(--primary-dark);
   box-shadow: 0 4px 12px rgba(139, 92, 246, 0.35);
+  transform: translateY(-1px);
+}
+
+.btn-success {
+  background: var(--success);
+  color: #fff;
+}
+
+.btn-success:hover:not(:disabled) {
+  background: var(--success-dark);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
   transform: translateY(-1px);
 }
 
