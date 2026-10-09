@@ -298,6 +298,17 @@ body {
   color: #fff;
 }
 
+.btn-danger {
+  background: #EF4444;
+  color: #fff;
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: #DC2626;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.35);
+  transform: translateY(-1px);
+}
+
 .btn-icon:disabled {
   opacity: 0.5;
   cursor: not-allowed;
